@@ -1,5 +1,8 @@
 #! /usr/bin/env node
 
+// #Project Statement
+// ###This somewhat complex TypeScript/Node.js project is a console-based application. When the system starts the user is prompted with a user id and user pin. After entering the details successfully, the ATM functionalities are unlocked. All the user data is generated randomly.
+
 import inquirer from 'inquirer';
 
 const guessNumber = Math.floor(Math.random() * 10 + 1);
